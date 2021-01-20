@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import TodoApp from "./ToDoApp.js";
+import { Provider } from "react-redux";
 
-import App from "./App";
-
-ReactDOM.render(<App />, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<TodoApp />, document.getElementById("root"));
